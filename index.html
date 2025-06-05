@@ -2,50 +2,94 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Viducate AI</title>
-    <style>
-        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
-        header { background-color: #4a4af1; color: white; text-align: center; padding: 2rem; }
-        section { padding: 2rem; max-width: 800px; margin: auto; }
-        h1 { font-size: 2.5rem; }
-        h2 { color: #4a4af1; }
-        .cta { background: #4a4af1; color: white; padding: 1rem 2rem; text-decoration: none; border-radius: 5px; display: inline-block; margin-top: 1rem; }
-        footer { background-color: #eee; text-align: center; padding: 1rem; font-size: 0.9rem; }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Viducate AI</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; line-height: 1.6; }
+    header { background-color: #4a4af1; color: white; text-align: center; padding: 3rem 1rem; }
+    header h1 { font-size: 2.5rem; }
+    header p { font-size: 1.2rem; }
+    .cta { display: inline-block; background: #ffffff; color: #4a4af1; padding: 0.75rem 1.5rem; border-radius: 5px; text-decoration: none; margin-top: 1rem; font-weight: bold; }
+
+    section { padding: 2rem 1rem; max-width: 900px; margin: auto; }
+    h2 { color: #4a4af1; margin-top: 2rem; }
+    ul, ol { padding-left: 1.5rem; }
+    footer { background: #f4f4f4; text-align: center; padding: 1rem; font-size: 0.9rem; color: #444; }
+
+    .pricing { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem; margin-top: 1rem; }
+    .plan { border: 1px solid #ccc; border-radius: 8px; padding: 1rem; text-align: center; background: #fff; }
+    .plan h3 { color: #4a4af1; }
+    .testimonial { font-style: italic; margin: 1rem 0; background: #f0f8ff; padding: 1rem; border-left: 4px solid #4a4af1; }
+
+    .button { background: #4a4af1; color: white; padding: 1rem; text-align: center; border-radius: 5px; display: block; width: fit-content; margin: 2rem auto; text-decoration: none; font-weight: bold; }
+  </style>
 </head>
 <body>
 
 <header>
-    <h1>Viducate AI</h1>
-    <p>Convierte cualquier documento en un video educativo con inteligencia artificial.</p>
-    <a href="#" class="cta">Probar Gratis</a>
+  <h1>Viducate AI</h1>
+  <p>Convierte cualquier texto en un video educativo con IA, en segundos.</p>
+  <a href="#" class="cta">Prueba Gratis Ahora</a>
 </header>
 
 <section>
-    <h2>¿Qué es Viducate AI?</h2>
-    <p>Viducate AI es una plataforma que transforma documentos como libros, PDFs y textos técnicos en videos explicativos con voz generada por IA y animaciones, ideal para estudiantes, docentes y autodidactas.</p>
+  <h2>¿Por qué Viducate AI?</h2>
+  <p>📚 ¿Te cuesta entender libros complejos o textos técnicos? Viducate AI transforma esos documentos en videos explicativos con voz generada por IA, animaciones y estructura temática.</p>
+  <ul>
+    <li>✅ Ideal para estudiantes, docentes, autodidactas.</li>
+    <li>✅ Aprende más rápido, retiene mejor.</li>
+  </ul>
 
-    <h2>¿Cómo Funciona?</h2>
-    <ol>
-        <li>Sube tu documento (PDF, imagen, texto).</li>
-        <li>Elige el nivel de explicación: resumen, medio o completo.</li>
-        <li>Obtén un video educativo con narración y visuales.</li>
-    </ol>
+  <h2>¿Cómo Funciona?</h2>
+  <ol>
+    <li>Sube tu documento (PDF o imagen).</li>
+    <li>Elige el nivel de profundidad: resumen, medio o completo.</li>
+    <li>Recibe un video explicativo con voz IA, ilustraciones y capítulos.</li>
+    <li>Aprende, repasa, comparte. ¡Sin complicaciones!</li>
+  </ol>
 
-    <h2>Beneficios</h2>
-    <ul>
-        <li>Aprende más rápido y retiene mejor la información.</li>
-        <li>Ideal para exposiciones, tareas y repaso de temas.</li>
-        <li>Compatible con libros escaneados y multilingüe.</li>
-    </ul>
+  <h2>Beneficios Clave</h2>
+  <ul>
+    <li>🔹 Aprende visualmente, en menos tiempo.</li>
+    <li>🔹 Disponible 24/7, como un profesor personal.</li>
+    <li>🔹 Ideal para cursos, exposiciones, repaso de temas.</li>
+    <li>🔹 Compatible con libros escaneados (OCR).</li>
+    <li>🔹 Multilingüe y adaptable a tu ritmo.</li>
+  </ul>
 
-    <a href="#" class="cta">Comienza ahora</a>
+  <h2>Planes de Uso</h2>
+  <div class="pricing">
+    <div class="plan">
+      <h3>🎓 Gratis</h3>
+      <p>1 video por semana<br>Nivel resumen</p>
+      <strong>$0</strong>
+    </div>
+    <div class="plan">
+      <h3>💼 Estudiante Plus</h3>
+      <p>Videos ilimitados<br>Sin marcas de agua<br>Traducción</p>
+      <strong>$8/mes</strong>
+    </div>
+    <div class="plan">
+      <h3>🏫 Licencia Educativa</h3>
+      <p>Para instituciones<br>Panel para docentes<br>Exportación</p>
+      <strong>Desde $99/mes</strong>
+    </div>
+  </div>
+
+  <h2>Testimonios</h2>
+  <div class="testimonial">
+    “Gracias a Viducate entendí un libro entero en solo 30 minutos. Ideal para exposiciones.” – Lucía, estudiante de Derecho
+  </div>
+  <div class="testimonial">
+    “Ya no tengo que grabarme explicando. ¡La IA lo hace por mí!” – Luis, profesor de Historia
+  </div>
+
+  <a href="#" class="button">Sube tu documento – Genera tu video ahora</a>
 </section>
 
 <footer>
-    &copy; 2025 Viducate AI - Todos los derechos reservados. Contacto: contacto@viducate.ai
+  &copy; 2025 Viducate AI – Todos los derechos reservados. Contacto: contacto@viducate.ai
 </footer>
 
 </body>
